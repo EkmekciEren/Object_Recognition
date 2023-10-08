@@ -10,16 +10,8 @@ Daha sonra kullanıcı "coco.names" dosyasının tam yolunu burada vermesi gerek
 
 Bunlar yapıldıysa kod çalışmak için hazır!!
 
-======================================================================================================================================================
+************************************************************************
 
-                ;'-. 
-    `;-._        )  '---.._
-      >  `-.__.-'          `'.__
-     /_.-'-._         _,   ^ ---)
-...  `       `'------/_.'----```
-                     `
-
-======================================================================================================================================================
 # photoRecognition 
 
 Bu uygulama için gereklilikler kod içerisinde verilmiştir. Kullanıcının yapması gereken tek şey projenin bulunduğu dizine "isim + jpg" olacak şekilde fotoğraf yerleştirmesidir (Örnek: 'ahmet.jpg'). Fotoğraf yerleştirildikten sonra kodda yer alan: "known_face_names = ["","",""]" bölümüne fotoğrafın ismi eklenmelidir (Örnek olarak 3 adet fotoğrafımız olsun. Bu fotoğrafların ismi "ahmet.jpg", "fatma.jpg", "ali.jpg" olsun. Kodumuza şu şekilde güncelleme yapmamız gerekir: 'known_face_names = ["ahmet","fatma","ali"]')
