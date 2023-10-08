@@ -39,7 +39,7 @@ def detect_objects(frame, net, classes):
 net = cv2.dnn.readNet("yolov3.weights", "yolov3.cfg")
 classes = []
 # Burada coco.names dosyasının tam yolu verilmelidir.
-with open("/Users/erenekmekci/Desktop/everythink/face_recog/nesneTanıma/coco.names", "r") as f:
+with open("../../../../../coco.names", "r") as f:
     classes = f.read().strip().split("\n")
 
 # Kamera girişi
